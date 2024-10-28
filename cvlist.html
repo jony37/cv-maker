@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+    <div class="container">
+      <nav>
+        <ul class="d-flex">
+          <div class="nav-logo">
+            <a href="index.html">
+                <img src="./assest/img/cvmaker_logo.svg" alt="" />
+            </a>
+          </div>
+          <li class="nav-item">
+            <a href="#Home" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="#Templates" class="nav-link"> Templates </a>
+          </li>
+          <li class="nav-item">
+            <a href="#Features" class="nav-link"> Features </a>
+          </li>
+          <li class="nav-item">
+            <a href="#Testimonial" class="nav-link"> Testimonial </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"> About us </a>
+          </li>
+          <li class="nav-item">
+            <button class="dark-mode" type="button">
+              <i class="fa-regular fa-moon dark"></i>
+              <i class="fa-regular fa-sun sun"></i>
+            </button>
+          </li>
+          <button type="button" class="btn">Create</button>
+        </ul>
+      </nav>
+    </div>
+    <nav class="scrol-nav">
+      <div class="container">
+        <ul class="d-flex">
+          <div class="nav-logo">
+            <img src="./assest/img/cvmaker_logo.svg" alt="" />
+          </div>
+          <li class="nav-item">
+            <a href="#Home" class="nav-link"> Home </a>
+          </li>
+          <li class="nav-item">
+            <a href="#Templates" class="nav-link"> Templates </a>
+          </li>
+          <li class="nav-item">
+            <a href="#Features" class="nav-link"> Features </a>
+          </li>
+          <li class="nav-item">
+            <a href="#Testimonial" class="nav-link"> Testimonial </a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link"> About us </a>
+          </li>
+          <li class="nav-item">
+            <button class="dark-mode" type="button">
+              <i class="fa-regular fa-moon dark"></i>
+              <i class="fa-regular fa-sun sun"></i>
+            </button>
+          </li>
+          <button type="button" class="btn">Create</button>
+        </ul>
+      </div>
+    </nav>
+    </header>
+
+    <div class="container">
+      <div class="all-flex">
+        <div class="form-input">
+            <div style="margin-bottom: 34px;">
+                <h3 class="form-input-title">Please enter your</h3>
+                <h2 class="form-input-subtitle">Personal Details</h2>
+                <button type="button" class="clear-btn">clear</button>
+            </div>
+
+          <div class="inputs d-flex">
+            <div>
+              <label class="custom-label" for="fileInput">
+                <svg
+                stroke="currentColor"
+                fill="currentColor"
+                stroke-width="0"
+                viewBox="0 0 512 512"
+                class="text-gray-300 text-[35px]"
+                height="1em"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+                style="color: black"
+              >
+                <path
+                  d="M296 384h-80c-13.3 0-24-10.7-24-24V192h-87.7c-17.8 0-26.7-21.5-14.1-34.1L242.3 5.7c7.5-7.5 19.8-7.5 27.3 0l152.2 152.2c12.6 12.6 3.7 34.1-14.1 34.1H320v168c0 13.3-10.7 24-24 24zm216-8v112c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V376c0-13.3 10.7-24 24-24h136v8c0 30.9 25.1 56 56 56h80c30.9 0 56-25.1 56-56v-8h136c13.3 0 24 10.7 24 24zm-124 88c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20zm64 0c0-11-9-20-20-20s-20 9-20 20 9 20 20 20 20-9 20-20z"
+                ></path>
+              </svg></label>
+              <input type="file" id="fileInput" accept="image/*">
+            </div>
+            <div style="display: flex; margin-top: -100px">
+              <div class="ml-3">
+                <label for="text">First Name</label><br />
+                <input type="text" placeholder="name" class="form-control input-name" />
+              </div>
+              <div class="ml-3">
+                <label for="text" class="label">Last Name</label><br />
+                <input type="text" placeholder="Last Name" class="form-control input-surname" />
+              </div>
+            </div>
+          </div>
+          <div class="ml-5">
+            <label for="text"> Davlat mukofotlari bilan taqdirlanganmi (qanaqa): </label><br />
+            <input type="text" placeholder="mukofotlar" class="form-control input-location" />
+          </div>
+
+          <div class="inputs d-flex number">
+            <div class="ml-3">
+              <label for="Email">Tug‘ilgan yili:</label><br />
+              <input type="text" placeholder="age" class="form-control input-email" />
+            </div>
+            <div class="ml-3">
+              <label for="Number">Tug‘ilgan joyi:</label><br />
+              <input type="text" placeholder="location" class="form-control input-number" />
+            </div>
+          </div>
+
+          <div class="ml-6">
+            <label for="text"> Qaysi chet tillarini biladi: </label><br />
+            <input type="text" placeholder="languages" class="form-control input-language" />
+          </div>
+          <div class="inputs d-flex number">
+            <div class="ml-3">
+              <label for="Email">Ilmiy darajasi</label><br />
+              <input type="text" placeholder="Ilmiy daraja" class="form-control input-ilim" />
+            </div>
+            <div class="ml-3">
+              <label for="Number">Ilmiy unvoni:</label><br />
+              <input type="text" placeholder="Ilmiy unvon" class="form-control input-unvon" />
+            </div>
+             </div>
+
+            <div class="textarea">
+                <label for="">Description</label><br>
+                <textarea name="Description" id="textarea">
+
+                </textarea>
+            </div>
+            <button class="prev" type="button">prev</button>
+            <button class="next" type="button">Next</button>
+            <button type="button" class="finaly">add table</button>
+
+
+            <div class="option">
+                <!-- <div class="d-flex">
+                    <h2 class="name"></h2>
+                    <h2 class="lastname"></h2>
+                </div> -->
+                <select id="select" onchange="ParentInput()">
+                    <option value="Otasi">Otasi</option>
+                    <option value="Onasi">Onasi</option>
+                    <option value="Opasi">Opasi</option>
+                    <option value="Singlisi">Singlisi</option>
+                    <option value="Akasi">Akasi</option>
+                </select>
+                
+
+                <div class="otasiO">
+                    <div class="d-flex" style="padding-top: 14px;">
+                        <div>
+                            <label for="text">Familiyasi, ismi</label><br>
+                            <input type="text" placeholder="name and lastname" class="parent-name inputt">
+                        </div>
+                        <div style="margin-left: 17px;">
+                            <label for="text">Tug‘ilgan yili va joyi</label><br>
+                            <input type="text" placeholder="age" class="parent-age inputt">
+                        </div>
+                   
+                    </div>
+                    
+                    <div class="d-flex" style="padding-top: 14px;">
+                        <div>
+                            <label for="text">Ish joyi va lavozimi</label><br>
+                            <input type="text" placeholder="ish joyi" class="parent-ish inputt">
+                        </div>
+                        <div style="margin-left: 17px;">
+                            <label for="text">Turar joyi</label><br>
+                            <input type="text" placeholder="location" class="parent-location inputt">
+                        </div>
+                   
+                    </div>
+                </div>
+
+                <button class="finalyBTN" type="button">Final</button>
+                <button type="button" onclick="location.href = 'default.html'">ALALALLALAL</button>
+
+
+            </div>
+        </div>
+        <div class="list">
+            <h2 class="list-title">Your List</h2>
+
+            <div class="bg-whitelist">
+                <div class="custom-img">
+                    <img id="preview" alt="Предпросмотр">
+                </div>
+                <div class="d-flex" style="padding-top: 15px; align-items: center;">
+                  <div class="nameDiv">
+                    <p style="font-weight: bold;">Name</p>
+                    <h2 class="name"></h2>
+                  </div>
+                  <div class="lastnameDiv" style="margin-top: -5px; margin-left: 44px;">
+                    <p style="font-weight: bold;">Last Name</p>
+                    <h2 class="lastname"></h2>
+                  </div>
+                </div>
+                <div style="margin: 20px 0px;">
+                  <p class="mukofot" style="font-weight: bold;">mukofot</p>
+                  <p href="#" class="location"></p>
+                </div>
+                <div class="d-flex" style="padding-top: 10px; gap: 16px;">
+                    <div class="joyi">
+                      <p style="font-weight: bold;">Tugulgan joyi</p>
+                      <p class="email"></p>
+                    </div>
+                    <div style="margin-left: 24px;" class="yili">
+                      <p style="font-weight: bold;">Tugulgan yili</p>
+                      <p class="numberin pl"></p>
+                    </div>
+                </div> 
+                <div class="d-flex">
+                  <div style="margin: 20px 0px;">
+                    <p class="til" style="font-weight: bold;">Qaysi chet tillarini biladi:</p>
+                    <p class="languages pl"></p>
+                  </div>
+                </div>
+                <div class="d-flex" style="margin: 20px 0px;">
+                  <div class="ilmdaraja">
+                    <p style="font-weight: bold;">Ilmiy darajasi:</p>
+                    <p class="daraja"></p>
+                  </div>
+                  <div class="ilmunvon" style="margin-left: 24px;">
+                    <p style="font-weight: bold;">Ilmiy unvoni:</p>
+                    <p class="unvon"></p>
+                  </div>
+                </div>
+                <div class="width222">
+                  <p class="textdiv">Description</p>
+                  <p class="textar"></p>
+                </div>
+
+
+
+                <div class="table-div">
+                    <table border="1" class="table">
+                        <thead>
+                            <tr>
+                                <th class="th">Qarin-doshligi</th>
+                                <th class="th">Familiyasi, ismi va otasining ismi </th>
+                                <th class="th">Tug‘ilgan yili va joyi</th>
+                                <th class="th">Ish joyi va lavozimi</th>
+                                <th class="th">Turar joyi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- script js -->
+    <script src="./assest/js/page2.js"></script>
+    <!-- <script src></script> -->
+    <!-- <script src="./assest/js/script.js"></script> -->
+  </body>
+</html>

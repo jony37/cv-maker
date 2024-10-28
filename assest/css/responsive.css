@@ -1,0 +1,33 @@
+@media (width < 1280px) {
+    header .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    main .container {
+        width: 100%;
+        margin: auto;
+    }
+
+    header nav ul .nav-logo {
+        margin-right: 50px;
+    }
+
+    header nav ul button {
+        margin-left: 50px;
+    }
+
+    .main-header .main-header-img {
+        margin-left: 50px;
+    }
+
+    .main-header .d-flex {
+        display: block;
+    }
+
+    .main-header .main-header-img img{
+        width: 300px;
+        display: block;
+    }
+
+}
